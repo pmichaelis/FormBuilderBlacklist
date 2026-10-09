@@ -1,0 +1,39 @@
+en,de,description,file,hash
+FormBuilder Blacklist,FormBuilder Blacklist,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,1ba68b9e347f7e1adc3a8159b15f5500
+"Checks the content of FormBuilder submissions against blacklists and spam heuristics, can be enabled per form under Actions > Filter spam.","Prüft den Inhalt von FormBuilder-Einsendungen mit Blacklists und Spam-Heuristiken, aktivierbar pro Formular unter Aktionen > Spam filtern.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,c1fb2297c6113bcd1f3835d3d8f77126
+"FormBuilderBlacklist: Dependencies are missing, please run ""composer install"" in the module directory.","FormBuilderBlacklist: Abhängigkeiten fehlen, bitte „composer install“ im Modulordner ausführen.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,1db67f395e9e94b19fe3a82364d6f9fc
+Disposable email address (%s),Wegwerf-E-Mail-Adresse (%s),,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,378aa58153c945519d22f2e24f8df32b
+Too many links (%d),Zu viele Links (%d),,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,d50a87f85ed15cc7673bb625ad3c7e61
+BBCode/HTML link,BBCode/HTML-Link,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,77031bc02b6fa29fc6069db79c9c1123
+Foreign script,Fremdes Schriftsystem,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,8442e13b532fe3bf91a0559e93ecb77f
+Medication / potency drugs,Medikamente / Potenzmittel,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,07ebe6ffb0ad6b20a3c0a0e2054c0ce8
+Gambling / casino,Glücksspiel / Casino,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,a777037bbae64be57cb657ac9454faec
+Counterfeit brands / shops,Markenfälschungen / Shops,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,93d75c3aa70074cacf90fa4d9a8bbea8
+Loans / services,Kredite / Dienstleistungen,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,373ff24b682923e099972a7c2caad3d7
+Trading / binary options,Trading / Binäre Optionen,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,c6e9660d96dbcb123f15f79354ecdaa8
+Software / keys / gaming gold,Software / Keys / Gaming-Gold,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,cfbcb9b25a464b2c590620540610fde3
+Hosting / VPN,Hosting / VPN,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,bd1ecc85bea208b779211e99ca305497
+Polish SEO spam,Polnischer SEO-Spam,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,0f3977ce205d48b6521e47448546baec
+Spam tool placeholders (e.g. %BLOGTITLE%),Spam-Tool-Platzhalter (z.B. %BLOGTITLE%),,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,52590668c213b3e310ca593230cdab27
+Miscellaneous (link patterns),Verschiedenes (Link-Muster),,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,5fcc614a9501482b5bf04f5145703b82
+Known spam domains,Bekannte Spam-Domains,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,324fced8132cac413e0f07fca2d9b097
+"Blacklist %1$s: ""%2$s""",Blacklist %1$s: „%2$s“,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,a8c568d8e3ed97f66764c955dd0b4252
+Blacklist & content check,Blacklist & Inhaltsprüfung,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,47c681318cc4112489b382f5f4398200
+Enable blacklist & content check,Blacklist & Inhaltsprüfung aktivieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,1c97b4a9af7371460cac755fb011c2d9
+Check submissions with the checks below,Einsendungen mit den Prüfungen unten kontrollieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,3cb4b57166fbc46066e00ccf5f5b33ef
+"Complements the spam filters built into FormBuilder. When spam is detected, the setting “What should happen when spam is detected?” above applies.","Ergänzt die FormBuilder-eigenen Spam-Filter. Bei erkanntem Spam gilt die Einstellung „Was soll passieren, wenn Spam erkannt wird?“ oben.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,2d1c53c30e2ea781f06e5afbf850b52f
+Blacklists,Blacklists,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,625a78cd26162ea32e8b19ad346726ce
+Keyword lists from php-spam-filter (mostly English spam). Keywords only match as whole words.,Begriffslisten aus php-spam-filter (überwiegend englischer Spam). Begriffe werden nur als ganze Wörter erkannt.,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,b446b65a990222b170dd693f3b9d5255
+List files: %s,Listen-Dateien: %s,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,25df4ac8935f7544a5c3a37e153139c3
+Fields to check,Zu prüfende Felder,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,184956e76d7f22122f13ec6f4245f572
+Leave blank to check all text fields.,"Leer lassen, um alle Textfelder zu prüfen.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,9e6375f818c4ecb3d957604de6fa5e0a
+Maximum number of links,Maximale Anzahl Links,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,d75efd5afb5181cc7d6d8220e4435e09
+"More links (http://, https://, www.) are considered spam. 0 = no links allowed, blank = no check.","Mehr Links (http://, https://, www.) gelten als Spam. 0 = keine Links erlaubt, leer = keine Prüfung.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,bc99cb9762ad4de48d3ad0d35a1282c0
+Block disposable email addresses,Wegwerf-E-Mail-Adressen blockieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,2a1be441e385c37d4aee0d7ef8c545a4
+Email fields containing addresses of disposable email services (e.g. mailinator.com) are considered spam.,E-Mail-Felder mit Adressen von Wegwerf-Diensten (z.B. mailinator.com) gelten als Spam.,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,0fc5344ed722bc6d676ba7a5e6b3f9c2
+Block BBCode and HTML links,BBCode- und HTML-Links blockieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,721eb5f13a5b99ed6f6c936f7a867043
+"Submissions containing [url=…], [link…] or <a href…> are considered spam.","Einsendungen mit [url=…], [link…] oder <a href…> gelten als Spam.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,2c6057745f33905fcb488bb887432908
+Block foreign scripts,Fremde Schriftsysteme blockieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,387219ffdfc898bfd1bdb9bc0c99b2a1
+"Texts consisting mainly of Cyrillic, Chinese, Japanese, Korean, Arabic or Thai characters are considered spam.","Texte, die überwiegend aus kyrillischen, chinesischen, japanischen, koreanischen, arabischen oder thailändischen Zeichen bestehen, gelten als Spam.",,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,ebbe22a459f51c4c0f929bc0e2f7d762
+Log detected spam,Erkannten Spam protokollieren,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,50db076784417062c25f4a599e65596a
+Writes form and reason to Setup > Logs > form-builder-blacklist.,Schreibt Formular und Grund nach Setup > Logs > form-builder-blacklist.,,site/modules/FormBuilderBlacklist/FormBuilderBlacklist.module.php,06b61b45ad804f8cdf38af166ca2d2b7

@@ -1,0 +1,34 @@
+{
+  "name": "pmichaelis/formbuilder-blacklist",
+  "description": "Blacklist and content spam check for ProcessWire FormBuilder",
+  "type": "pw-module",
+  "keywords": [
+    "processwire",
+    "formbuilder",
+    "spam",
+    "blacklist"
+  ],
+  "homepage": "https://github.com/pmichaelis/FormBuilderBlacklist",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philipp Michaelis",
+      "homepage": "https://github.com/pmichaelis"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "fgribreau/mailchecker": "^6.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php bin/prune-vendor.php"
+    ],
+    "post-update-cmd": [
+      "@php bin/prune-vendor.php"
+    ]
+  }
+}
